@@ -1,0 +1,491 @@
+@media screen and (max-width: 1390px) {
+    .present {
+        bottom: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        padding: 0 20px;
+        max-width: 1120px;
+    }
+
+    .products {
+        padding: 120px 0 0 0;
+    }
+
+    .products__items {
+        justify-content: center;
+        grid-template-columns: repeat(2, minmax(229px, 269px));
+    }
+
+    .products__item {
+        margin-bottom: 136px;
+    }
+
+    .present {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 38px 0 0 0;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__container {
+        justify-content: start;
+    }
+
+    .header__logo {
+        margin-right: 103px;
+    }
+
+    .main__container {
+        flex-direction: column;
+        align-items: start;
+        padding: 97px 0 423px 0;
+        position: relative;
+    }
+
+    .main__image {
+        position: absolute;
+        right: 55px;
+        top: 45%
+    }
+
+    .main__info-text {
+        margin: 74px 0 41px 0;
+
+    }
+
+    .benefits__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__title {
+        max-width: 475px;
+        text-align: center;
+    }
+
+    .benefits__text {
+        text-align: center;
+        max-width: 672px;
+        margin-bottom: 40px;
+    }
+
+    .benefits-item-two {
+        padding-bottom: 19px;
+    }
+
+    .benefits__img {
+        width: 302px;
+    }
+
+    .benefits__items-container {
+        grid-template-columns: repeat(2, minmax(220px, 227px));
+        justify-content: center;
+    }
+
+    .benefits__item {
+        width: 220px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .benefits__item-number {
+        left: calc(50% - 33px);
+    }
+
+    .order__container {
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .order__images {
+        order: 2;
+        position: absolute;
+        right: 18px;
+        bottom: -16%;
+        z-index: 1;
+        margin-right: 0;
+    }
+
+    .order__form {
+        z-index: 2;
+    }
+
+    .order__images-img {
+        width: 352px;
+    }
+
+
+    .order__berry {
+        top: 286px;
+        left: 44%;
+    }
+
+
+    .order__form-berry {
+        right: 20%;
+        bottom: 386px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .products__items {
+        justify-content: center;
+        grid-template-columns: repeat(1, minmax(229px, 269px));
+    }
+
+    .products__item {
+        margin-bottom: 95px;
+    }
+
+    .benefits__items-container {
+        grid-template-columns: repeat(2, minmax(165px, 119px));
+        justify-content: center;
+    }
+
+    .benefits__item {
+        width: 165px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header__logo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main__info-title {
+        font-size: 34px;
+    }
+
+    .main__image {
+        z-index: 1;
+        right: 0;
+        top: 55%;
+    }
+
+    .main__info {
+        z-index: 2;
+    }
+
+    .main__image-img {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .main__image::after {
+        top: -148px;
+        left: -88px;
+    }
+
+    .main__image::before {
+        top: -148px;
+        left: -88px;
+    }
+
+
+    .benefits__items {
+        padding-bottom: 0;
+    }
+
+    .benefits__item-title {
+        font-size: 18px;
+    }
+
+    .benefits__item-text {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .order__berry {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 424px) {
+
+    .header-nav {
+        transition: all .3s;
+
+    }
+
+    .header-nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: -100%;
+        left: 0;
+        background: #000000F5;
+        z-index: 99;
+    }
+
+    .header-nav.open {
+        display: flex;
+        align-items: center;
+        top: 0;
+    }
+
+    .header-nav .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #eba8b1;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .header-nav ul li {
+        margin-bottom: 50px;
+    }
+
+    .header-nav__link {
+        font-size: 25px;
+        color: #eba8b1;
+    }
+
+    .header__logo {
+        margin-bottom: 0;
+    }
+
+    .header__container {
+        flex-direction: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main__info {
+        text-align: center;
+    }
+
+    .main__info-title {
+        font-size: 32px;
+    }
+
+    .main__image {
+        right: 45px;
+    }
+
+    .main__image-img {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .main__image::before {
+        width: 500px;
+        height: 500px;
+    }
+
+    .main__image::after {
+        width: 500px;
+        height: 500px;
+    }
+
+    .main__info-text {
+        margin: 40px 0 40px 0;
+        font-size: 16px;
+    }
+
+
+    .benefits__title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .benefits__items-container {
+        grid-template-columns: repeat(2, minmax(118px, 119px));
+        justify-content: center;
+    }
+
+    .benefits__item {
+        width: 118px;
+    }
+
+    .benefits {
+        padding: 100px 0 60px 0;
+    }
+
+    .benefits__title {
+        font-size: 34px;
+    }
+
+    .benefits__text {
+        font-size: 16px;
+        margin-bottom: 59px;
+    }
+
+    .products {
+        padding: 100px 0;
+    }
+
+    .products__title {
+        font-size: 29px;
+        margin-bottom: 122px;
+    }
+
+    .order {
+        padding: 100px 0 77px 0;
+    }
+
+    .order__form-title {
+        font-size: 30px;
+        margin-bottom: 44px;
+    }
+
+    .order__form-text {
+        font-size: 16px;
+        margin-bottom: 60px;
+        width: 338px;
+    }
+
+    .order__form-input {
+        width: 344px;
+    }
+
+    .order__btn {
+        width: 343px;
+    }
+
+    .order__images {
+        display: none;
+    }
+
+    .order__form-berry {
+        right: 10%;
+    }
+
+    .footer {
+        padding: 50px 0 50px 0;
+    }
+
+    .footer__container {
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .footer__logo-name {
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer__social-img {
+        margin-bottom: 8px;
+    }
+
+    .footer__logo-text {
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 82px);
+    }
+
+    .footer__phone {
+        order: 2;
+        margin-bottom: 40px;
+    }
+
+    .footer_social {
+        margin-bottom: 40px;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .main__container {
+        align-items: center;
+        padding: 70px 0 300px 0;
+    }
+
+    .main__info {
+        text-align: center;
+    }
+
+    .main__info-title {
+        font-size: 25px;
+    }
+
+    .main__info-text {
+        font-size: 13px;
+        width: 315px;
+    }
+
+    .benefits__items-container {
+        grid-template-columns: repeat(2, minmax(116px, 119px));
+        justify-content: center;
+    }
+
+    .benefits__item {
+        width: 116px;
+    }
+
+    .benefits {
+        padding: 70px 0 50px 0;
+    }
+
+    .benefits__title {
+        font-size: 25px;
+    }
+
+    .products {
+        padding: 50px 0;
+    }
+
+    .products__title {
+        font-size: 25px;
+    }
+
+    .products__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .order {
+        padding: 60px 0;
+    }
+
+    .order__form-text {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .order__form-input {
+        width: 290px;
+    }
+
+    .order__btn {
+        width: 290px;
+    }
+}
+
+
